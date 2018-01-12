@@ -4,6 +4,8 @@
 *.jar
 *.war
 *.ear
+*.iml
+*.dat
 
 #docs dir
 docs
@@ -11,6 +13,3 @@ experiments
 out
 classes
 .idea
-
-*.iml
-*.dat
