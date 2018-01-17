@@ -34,7 +34,7 @@ public class RankPreferenceElement extends ObjectModelElement {
             System.exit(-1);
         }
 
-        for(int i = 1; i<= net.noNodes_; i++){
+        for(int i = 1; i<= net.noNodes_+1; i++){
             total += Math.pow(i,-power);
         }
 
